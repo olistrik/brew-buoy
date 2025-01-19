@@ -1,0 +1,4 @@
+board_manager:
+    additional_urls:
+      - https://siliconlabs.github.io/arduino/package_arduinosilabs_index.json 
+
