@@ -1,0 +1,8 @@
+default_profile: xiao_mg24
+profiles:
+  xiao_mg24:
+    fqbn: SiliconLabs:silabs:xiao_mg24
+    platforms:
+      - platform: SiliconLabs:silabs (2.2.0)
+        parform_index_url: https://siliconlabs.github.io/arduino/package_arduinosilabs_index.json 
+
