@@ -1,8 +1,8 @@
 default_profile: xiao_esp32c6
+default_port: /dev/ttyACM0
 profiles:
   xiao_esp32c6:
     fqbn: esp32:esp32:XIAO_ESP32C6
     platforms:
       - platform: esp32:esp32 (3.1.1)
         parform_index_url: https://espressif.github.io/arduino-esp32/package_esp32_index.json 
-
