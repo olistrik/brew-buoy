@@ -1,4 +1,6 @@
-{ pkgs ? import <nixpkgs> { } }:
+{
+  pkgs ? import <nixpkgs> { },
+}:
 with pkgs;
 mkShell {
   packages = [
@@ -6,7 +8,4 @@ mkShell {
 
     arduino-cli
   ];
-
-  ARDUINO_CONFIG_FILE = ./arduino-cli.yaml;
 }
-
