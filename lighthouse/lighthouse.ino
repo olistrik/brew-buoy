@@ -3,8 +3,8 @@
 #include <BLEUtils.h>
 #include <BLEServer.h>
 
-#define SERVICE_UUID        "4fafc201-1fb5-459e-8fcc-c5c9c331914b"
-#define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
+#define SERVICE_UUID        "beeb9bc6-c8f5-4799-aa14-196fe20ebe7e"
+#define CHARACTERISTIC_UUID "58c7d44a-7a45-4e60-a6aa-f78bd4fb9588"
 
 void setup() {
   Serial.begin(115200);
