@@ -6,5 +6,7 @@ mkShell {
 
     arduino-cli
   ];
+
+  ARDUINO_CONFIG_FILE = ./arduino-cli.yaml;
 }
 
