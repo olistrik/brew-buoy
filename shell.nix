@@ -7,5 +7,6 @@ mkShell {
     git
 
     arduino-cli
+    arduino-ide
   ];
 }

@@ -4,5 +4,7 @@ profiles:
     fqbn: SiliconLabs:silabs:xiao_mg24
     platforms:
       - platform: SiliconLabs:silabs (2.2.0)
-        parform_index_url: https://siliconlabs.github.io/arduino/package_arduinosilabs_index.json 
+        parform_index_url: https://siliconlabs.github.io/arduino/package_arduinosilabs_index.json
+    libraries:
+      - Seeed Arduino LSM6DS3 (2.0.4)
 
